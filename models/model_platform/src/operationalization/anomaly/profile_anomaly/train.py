@@ -36,6 +36,7 @@ def train_and_save_sklean_isolationforest_profile_anomaly_model_for_actor(spark,
                                                    time_window=time_window,
                                                    model_name=SKLEARN_ISOLATION_FOREST_MODEL)
     model.save(spark=spark, path=model_path)
+    logger.info(model_path)
     logger.info(
         "sklean_isolationforest profile anomaly model training for {actor_type} for {data_source} for time window {window} ended".format(
             actor_type=actor_type,
