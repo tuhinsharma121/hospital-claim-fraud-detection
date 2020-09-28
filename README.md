@@ -64,7 +64,7 @@ cd ~
 ## To run the profiler (note down the pid)
 ```bash
 cd flink-1.8.0
-nohup ./bin/flink run -c com.hospitalclaim.fraud.profilers.Profiler /Users/tuhinsharma/Documents/Git/hospital-claim-fraud-detection/profiler/target/scala-2.11/hospital-claim-fraud-profiler-assembly-0.1.0-SNAPSHOT.jar --config /Users/tuhinsharma/Documents/Git/hospital-claim-fraud-detection/profiler/src/main/resources/hospital-claim-fraud-profiler.properties > /Users/tuhinsharma/nohup_flink_profiler.out&
+nohup ./bin/flink run -c com.hospitalclaim.fraud.profilers.Profiler /Users/tuhinsharma/Documents/Git/hospital-claim-fraud-detection/profiler/target/scala-2.11/hospital-claim-fraud-profiler-assembly-0.1.0-SNAPSHOT.jar --config /Users/tuhinsharma/Documents/Git/hospital-claim-fraud-detection/profiler/src/main/resources/hospital-claim-fraud-profiler.properties > ~/nohup_flink_profiler.out&
 ```
 
 ## To stop the profiler
